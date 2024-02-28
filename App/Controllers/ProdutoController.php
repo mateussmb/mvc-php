@@ -46,11 +46,19 @@ class ProdutoController extends Controller
 
     public function salvar()
     {
+        
+        extract($this->getProprietes());        
+        var_dump($this->getProprietes());
+       /*
+        if (empty($no_produto)) {
+            echo 'Insira um nome verdadeiro';
+        } else {
+                Produto::salvar($_POST);
+                $this->redirect('produto/index');
+                
+        }
 
-        Produto::salvar($_POST);
-
-        $this->redirect('produto/index');
-
+*/
     }
 
     public function atualizar()

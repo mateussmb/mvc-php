@@ -22,9 +22,9 @@ class DB
     {
         $oConfigDb = $_SESSION['oConfig']->getConfig()->db;
 
-        $this->host         = (!empty($oConfigDb->host))        ? $oConfigDb->host      : "";
-        $this->name         = (!empty($oConfigDb->name))        ? $oConfigDb->name      : "";
-        $this->username     = (!empty($oConfigDb->username))    ? $oConfigDb->username  : "";
+        $this->host         = (!empty($oConfigDb->host))        ? $oConfigDb->host      : "loalhost";
+        $this->name         = (!empty($oConfigDb->name))        ? $oConfigDb->name      : "mvc-php";
+        $this->username     = (!empty($oConfigDb->username))    ? $oConfigDb->username  : "root";
         $this->password    = (!empty($oConfigDb->password))   ? $oConfigDb->password : "";
         $this->driver       = (!empty($oConfigDb->driver))      ? $oConfigDb->driver    : "";
 

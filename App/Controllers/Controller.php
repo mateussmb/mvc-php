@@ -11,6 +11,17 @@ class Controller
     private $_viewCss = [];
     private $existeLayout = true;
 
+    
+    public function getProprietes() {
+        //Ainda a configurar
+        
+        $propietes = array();
+        $propietes = ($_SESSION);
+        $propietes = ($_REQUEST);
+        
+        
+        return $propietes;
+    }
 
     public function render($view)
     {
