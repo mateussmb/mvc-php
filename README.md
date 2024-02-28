@@ -1,6 +1,6 @@
 # PROJETO MVC
 
-*Autor: Fabio Rocha*
+*Autor: Mateus Moreira*
 
 *PHP 5.7*
 
